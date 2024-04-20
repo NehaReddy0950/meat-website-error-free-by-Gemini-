@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RaniVari Meat - Fresh Meat Delivery</title>
+  <style>
+    /* Basic styles */
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header,
+    nav,
+    main,
+    footer {
+      display: flex;
+      justify-content: center;
+      align-items: center; /* Center content vertically */
+    }
+
+    /* Header styles */
+    header {
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 5px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: #000; /* Improved contrast for accessibility */
+    }
+
+    /* Navigation styles */
+    nav {
+      background-color: #ddd;
+      padding: 10px;
+      width: 100%; /* Stretch navigation bar to full width */
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000; /* Improved contrast for accessibility */
+    }
+
+    nav a:hover {
+      color: #333;
+    }
+
+    /* Main content styles */
+    main {
+      padding: 20px;
+    }
+
+    .banner {
+      text-align: center;
+      margin-bottom: 20px;
+      background-color: #eee;
+      padding: 20px;
+    }
+
+    .banner h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    .banner button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .banner button:hover {
+      background-color: #444;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .product-card {
+      border: 1px solid #ccc;
+      padding: 10px;
+      background-color: #f5f5f5;
+      width: calc(33% - 20px); /* Responsive product card width */
+      margin-bottom: 10px; /* Added margin for spacing */
+    }
+
+    .product-card img {
+      width: 100%;
+    }
+
+    .product-card h3 {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    .cart {
+      padding: 20px;
+    }
+
+    .total-price {
+      margin-bottom: 10px;
+    }
+
+    .checkout-container {
+      text-align: center;
+    }
+
+    #discount-message {
+      margin-bottom: 10px;
+    }
+
+    .payment-details {
+      display: none;
+      padding: 20px;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: black;
+      color: white;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>RaniVari Meat</h1>
+    <p>Fresh Meat Delivered at Your Doorstep</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a
